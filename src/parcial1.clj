@@ -7,7 +7,7 @@
 ;; I. En esta evaluación se encontrará con un conjunto de funciones que deberá completar de acuerdo a su premisa respectiva. Así que tómese la 
 ;;    libertad de modificar el cuerpo de la función según lo considere apropiado.
 ;;    De igual modo, siempre que lo estime conveniente puede crear otras funciones que sirvan de auxiliares. Eso sí, nunca modifique el nombre 
-;;    ni la cantidad de argumentos de las funciones a completar.
+;;    ni la cantidad de argumentos de las funciones a completar. 
 ;;    Puede importar y requerir las librerías que juzgue convenientes (e.g. clojure.string ó clojure.set). 
 
 ;;  II. Al conectarse al REPL ¡NO! seleccione la opción :test, déjela sin marcar y presione OK en el cuadro de diálogo.
@@ -49,7 +49,7 @@
 
 (defn obtener-diptongos-y-hiatos
   [palabras]
-  nil)
+  ())
 
 ;; 2. La siguiente función recibe como parámetro un número que representa la temperatura en grados celcius. Si la 
 ;;    temperatura se encuentra por debajo de los 0 grados debe retornar "helado"; si se encuentra entre los 0 y los 10 
@@ -87,6 +87,9 @@
 
 
 (comment
-
+(obtener-diptongos-y-hiatos [])
+  (def palabras ["abdf" "ee"])
+  (+ 4 53 443)
+  
 
   )
